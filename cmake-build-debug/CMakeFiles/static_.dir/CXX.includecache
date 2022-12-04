@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wespc/cppl/cpplearn11/cpp/fun.h
+
+/Users/wespc/cppl/cpplearn11/cpp/static_.cpp
+iostream
+-
+fun.h
+/Users/wespc/cppl/cpplearn11/cpp/fun.h
+

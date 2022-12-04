@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wespc/cppl/cpplearn11/string/str.cpp
+iostream
+-
+string
+-
+
+/Users/wespc/cppl/cpplearn11/string/strlit.cpp
+iostream
+-
+string
+-
+

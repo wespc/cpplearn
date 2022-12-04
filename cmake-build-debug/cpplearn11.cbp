@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cpplearn11"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/wespc/cppl/cpplearn11/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mut">
+				<Option output="/Users/wespc/cppl/cpplearn11/cmake-build-debug/mut" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wespc/cppl/cpplearn11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 mut"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mut/fast">
+				<Option output="/Users/wespc/cppl/cpplearn11/cmake-build-debug/mut" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wespc/cppl/cpplearn11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 mut/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/wespc/cppl/cpplearn11/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="con">
+				<Option output="/Users/wespc/cppl/cpplearn11/cmake-build-debug/con" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wespc/cppl/cpplearn11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 con"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="con/fast">
+				<Option output="/Users/wespc/cppl/cpplearn11/cmake-build-debug/con" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wespc/cppl/cpplearn11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 con/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="strlit">
+				<Option output="/Users/wespc/cppl/cpplearn11/cmake-build-debug/strlit" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wespc/cppl/cpplearn11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 strlit"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="strlit/fast">
+				<Option output="/Users/wespc/cppl/cpplearn11/cmake-build-debug/strlit" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wespc/cppl/cpplearn11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 strlit/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="str">
+				<Option output="/Users/wespc/cppl/cpplearn11/cmake-build-debug/str" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wespc/cppl/cpplearn11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 str"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="str/fast">
+				<Option output="/Users/wespc/cppl/cpplearn11/cmake-build-debug/str" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wespc/cppl/cpplearn11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 str/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Visibility">
+				<Option output="/Users/wespc/cppl/cpplearn11/cmake-build-debug/Visibility" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wespc/cppl/cpplearn11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 Visibility"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Visibility/fast">
+				<Option output="/Users/wespc/cppl/cpplearn11/cmake-build-debug/Visibility" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wespc/cppl/cpplearn11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 Visibility/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arr">
+				<Option output="/Users/wespc/cppl/cpplearn11/cmake-build-debug/arr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wespc/cppl/cpplearn11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 arr"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arr/fast">
+				<Option output="/Users/wespc/cppl/cpplearn11/cmake-build-debug/arr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wespc/cppl/cpplearn11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 arr/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Log">
+				<Option output="/Users/wespc/cppl/cpplearn11/cmake-build-debug/Log" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wespc/cppl/cpplearn11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 Log"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Log/fast">
+				<Option output="/Users/wespc/cppl/cpplearn11/cmake-build-debug/Log" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wespc/cppl/cpplearn11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 Log/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vf">
+				<Option output="/Users/wespc/cppl/cpplearn11/cmake-build-debug/vf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wespc/cppl/cpplearn11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 vf"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vf/fast">
+				<Option output="/Users/wespc/cppl/cpplearn11/cmake-build-debug/vf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wespc/cppl/cpplearn11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 vf/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/wespc/cppl/cpplearn11/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="inh">
+				<Option output="/Users/wespc/cppl/cpplearn11/cmake-build-debug/inh" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wespc/cppl/cpplearn11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 inh"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="inh/fast">
+				<Option output="/Users/wespc/cppl/cpplearn11/cmake-build-debug/inh" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wespc/cppl/cpplearn11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 inh/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="des">
+				<Option output="/Users/wespc/cppl/cpplearn11/cmake-build-debug/des" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wespc/cppl/cpplearn11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 des"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="des/fast">
+				<Option output="/Users/wespc/cppl/cpplearn11/cmake-build-debug/des" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wespc/cppl/cpplearn11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 des/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="int">
+				<Option output="/Users/wespc/cppl/cpplearn11/cmake-build-debug/int" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wespc/cppl/cpplearn11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 int"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="int/fast">
+				<Option output="/Users/wespc/cppl/cpplearn11/cmake-build-debug/int" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wespc/cppl/cpplearn11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 int/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="math">
+				<Option output="/Users/wespc/cppl/cpplearn11/cmake-build-debug/math" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wespc/cppl/cpplearn11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 math"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="math/fast">
+				<Option output="/Users/wespc/cppl/cpplearn11/cmake-build-debug/math" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wespc/cppl/cpplearn11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 math/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cons">
+				<Option output="/Users/wespc/cppl/cpplearn11/cmake-build-debug/cons" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wespc/cppl/cpplearn11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 cons"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cons/fast">
+				<Option output="/Users/wespc/cppl/cpplearn11/cmake-build-debug/cons" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wespc/cppl/cpplearn11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 cons/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="enumcpp">
+				<Option output="/Users/wespc/cppl/cpplearn11/cmake-build-debug/enumcpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wespc/cppl/cpplearn11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 enumcpp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="enumcpp/fast">
+				<Option output="/Users/wespc/cppl/cpplearn11/cmake-build-debug/enumcpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wespc/cppl/cpplearn11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 enumcpp/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="static_">
+				<Option output="/Users/wespc/cppl/cpplearn11/cmake-build-debug/static_" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wespc/cppl/cpplearn11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 static_"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="static_/fast">
+				<Option output="/Users/wespc/cppl/cpplearn11/cmake-build-debug/static_" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wespc/cppl/cpplearn11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 static_/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/wespc/cppl/cpplearn11/Constructor/cons.cpp">
+			<Option target="cons"/>
+		</Unit>
+		<Unit filename="/Users/wespc/cppl/cpplearn11/ENUM/enumcpp.cpp">
+			<Option target="enumcpp"/>
+		</Unit>
+		<Unit filename="/Users/wespc/cppl/cpplearn11/Visibility/Visibility.cpp">
+			<Option target="Visibility"/>
+		</Unit>
+		<Unit filename="/Users/wespc/cppl/cpplearn11/array/arr.cpp">
+			<Option target="arr"/>
+		</Unit>
+		<Unit filename="/Users/wespc/cppl/cpplearn11/const/con.cpp">
+			<Option target="con"/>
+		</Unit>
+		<Unit filename="/Users/wespc/cppl/cpplearn11/cpp/fun.h">
+			<Option target="static_"/>
+		</Unit>
+		<Unit filename="/Users/wespc/cppl/cpplearn11/cpp/static_.cpp">
+			<Option target="static_"/>
+		</Unit>
+		<Unit filename="/Users/wespc/cppl/cpplearn11/cpp/var.cpp">
+			<Option target="static_"/>
+		</Unit>
+		<Unit filename="/Users/wespc/cppl/cpplearn11/destructor/des.cpp">
+			<Option target="des"/>
+		</Unit>
+		<Unit filename="/Users/wespc/cppl/cpplearn11/inheritance/inh.cpp">
+			<Option target="inh"/>
+		</Unit>
+		<Unit filename="/Users/wespc/cppl/cpplearn11/interface/int.cpp">
+			<Option target="int"/>
+		</Unit>
+		<Unit filename="/Users/wespc/cppl/cpplearn11/mutable/mut.cpp">
+			<Option target="mut"/>
+		</Unit>
+		<Unit filename="/Users/wespc/cppl/cpplearn11/src/Log.cpp">
+			<Option target="Log"/>
+		</Unit>
+		<Unit filename="/Users/wespc/cppl/cpplearn11/src/Log.h">
+			<Option target="Log"/>
+		</Unit>
+		<Unit filename="/Users/wespc/cppl/cpplearn11/src/main.cpp">
+			<Option target="Log"/>
+		</Unit>
+		<Unit filename="/Users/wespc/cppl/cpplearn11/src/math.cpp">
+			<Option target="math"/>
+		</Unit>
+		<Unit filename="/Users/wespc/cppl/cpplearn11/string/str.cpp">
+			<Option target="str"/>
+		</Unit>
+		<Unit filename="/Users/wespc/cppl/cpplearn11/string/strlit.cpp">
+			<Option target="strlit"/>
+		</Unit>
+		<Unit filename="/Users/wespc/cppl/cpplearn11/virtual function/vf.cpp">
+			<Option target="vf"/>
+		</Unit>
+		<Unit filename="/Users/wespc/cppl/cpplearn11/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
