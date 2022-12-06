@@ -457,6 +457,48 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="mgraph">
+				<Option output="/Users/wespc/cppl/cpplearn11/cmake-build-debug/mgraph" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wespc/cppl/cpplearn11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 mgraph"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mgraph/fast">
+				<Option output="/Users/wespc/cppl/cpplearn11/cmake-build-debug/mgraph" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wespc/cppl/cpplearn11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 mgraph/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wespc/cppl/cpplearn11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="int">
 				<Option output="/Users/wespc/cppl/cpplearn11/cmake-build-debug/int" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/wespc/cppl/cpplearn11/cmake-build-debug"/>
@@ -691,6 +733,24 @@
 		</Unit>
 		<Unit filename="/Users/wespc/cppl/cpplearn11/cpp/var.cpp">
 			<Option target="static_"/>
+		</Unit>
+		<Unit filename="/Users/wespc/cppl/cpplearn11/data_structure/Adjacency Multilist.c">
+			<Option target="mgraph"/>
+		</Unit>
+		<Unit filename="/Users/wespc/cppl/cpplearn11/data_structure/BFS.c">
+			<Option target="mgraph"/>
+		</Unit>
+		<Unit filename="/Users/wespc/cppl/cpplearn11/data_structure/OLG.c">
+			<Option target="mgraph"/>
+		</Unit>
+		<Unit filename="/Users/wespc/cppl/cpplearn11/data_structure/adjgraph.c">
+			<Option target="mgraph"/>
+		</Unit>
+		<Unit filename="/Users/wespc/cppl/cpplearn11/data_structure/main.c">
+			<Option target="mgraph"/>
+		</Unit>
+		<Unit filename="/Users/wespc/cppl/cpplearn11/data_structure/mgraph.c">
+			<Option target="mgraph"/>
 		</Unit>
 		<Unit filename="/Users/wespc/cppl/cpplearn11/destructor/des.cpp">
 			<Option target="des"/>

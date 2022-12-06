@@ -73,6 +73,7 @@ all: CMakeFiles/Log.dir/all
 all: CMakeFiles/vf.dir/all
 all: CMakeFiles/inh.dir/all
 all: CMakeFiles/des.dir/all
+all: CMakeFiles/mgraph.dir/all
 all: CMakeFiles/int.dir/all
 all: CMakeFiles/math.dir/all
 all: CMakeFiles/cons.dir/all
@@ -95,6 +96,7 @@ clean: CMakeFiles/Log.dir/clean
 clean: CMakeFiles/vf.dir/clean
 clean: CMakeFiles/inh.dir/clean
 clean: CMakeFiles/des.dir/clean
+clean: CMakeFiles/mgraph.dir/clean
 clean: CMakeFiles/int.dir/clean
 clean: CMakeFiles/math.dir/clean
 clean: CMakeFiles/cons.dir/clean
@@ -109,7 +111,7 @@ clean: CMakeFiles/static_.dir/clean
 CMakeFiles/mut.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mut.dir/build.make CMakeFiles/mut.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mut.dir/build.make CMakeFiles/mut.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wespc/cppl/cpplearn11/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target mut"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wespc/cppl/cpplearn11/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target mut"
 .PHONY : CMakeFiles/mut.dir/all
 
 # Build rule for subdir invocation for target.
@@ -161,7 +163,7 @@ CMakeFiles/con.dir/clean:
 CMakeFiles/strlit.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/strlit.dir/build.make CMakeFiles/strlit.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/strlit.dir/build.make CMakeFiles/strlit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wespc/cppl/cpplearn11/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target strlit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wespc/cppl/cpplearn11/cmake-build-debug/CMakeFiles --progress-num=36,37 "Built target strlit"
 .PHONY : CMakeFiles/strlit.dir/all
 
 # Build rule for subdir invocation for target.
@@ -187,7 +189,7 @@ CMakeFiles/strlit.dir/clean:
 CMakeFiles/str.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/str.dir/build.make CMakeFiles/str.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/str.dir/build.make CMakeFiles/str.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wespc/cppl/cpplearn11/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target str"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wespc/cppl/cpplearn11/cmake-build-debug/CMakeFiles --progress-num=34,35 "Built target str"
 .PHONY : CMakeFiles/str.dir/all
 
 # Build rule for subdir invocation for target.
@@ -291,7 +293,7 @@ CMakeFiles/Log.dir/clean:
 CMakeFiles/vf.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vf.dir/build.make CMakeFiles/vf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vf.dir/build.make CMakeFiles/vf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wespc/cppl/cpplearn11/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target vf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wespc/cppl/cpplearn11/cmake-build-debug/CMakeFiles --progress-num=38,39 "Built target vf"
 .PHONY : CMakeFiles/vf.dir/all
 
 # Build rule for subdir invocation for target.
@@ -361,6 +363,32 @@ des: CMakeFiles/des.dir/rule
 CMakeFiles/des.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/des.dir/build.make CMakeFiles/des.dir/clean
 .PHONY : CMakeFiles/des.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/mgraph.dir
+
+# All Build rule for target.
+CMakeFiles/mgraph.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mgraph.dir/build.make CMakeFiles/mgraph.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mgraph.dir/build.make CMakeFiles/mgraph.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wespc/cppl/cpplearn11/cmake-build-debug/CMakeFiles --progress-num=22,23,24,25,26,27,28 "Built target mgraph"
+.PHONY : CMakeFiles/mgraph.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/mgraph.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wespc/cppl/cpplearn11/cmake-build-debug/CMakeFiles 7
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mgraph.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wespc/cppl/cpplearn11/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/mgraph.dir/rule
+
+# Convenience name for target.
+mgraph: CMakeFiles/mgraph.dir/rule
+.PHONY : mgraph
+
+# clean rule for target.
+CMakeFiles/mgraph.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mgraph.dir/build.make CMakeFiles/mgraph.dir/clean
+.PHONY : CMakeFiles/mgraph.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/int.dir
@@ -473,7 +501,7 @@ CMakeFiles/enumcpp.dir/clean:
 CMakeFiles/static_.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_.dir/build.make CMakeFiles/static_.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_.dir/build.make CMakeFiles/static_.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wespc/cppl/cpplearn11/cmake-build-debug/CMakeFiles --progress-num=24,25,26 "Built target static_"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wespc/cppl/cpplearn11/cmake-build-debug/CMakeFiles --progress-num=31,32,33 "Built target static_"
 .PHONY : CMakeFiles/static_.dir/all
 
 # Build rule for subdir invocation for target.

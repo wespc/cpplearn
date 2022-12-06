@@ -247,6 +247,19 @@ des/fast:
 .PHONY : des/fast
 
 #=============================================================================
+# Target rules for targets named mgraph
+
+# Build rule for target.
+mgraph: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mgraph
+.PHONY : mgraph
+
+# fast build rule for target.
+mgraph/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mgraph.dir/build.make CMakeFiles/mgraph.dir/build
+.PHONY : mgraph/fast
+
+#=============================================================================
 # Target rules for targets named int
 
 # Build rule for target.
@@ -478,6 +491,150 @@ cpp/var.s: cpp/var.cpp.s
 cpp/var.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_.dir/build.make CMakeFiles/static_.dir/cpp/var.cpp.s
 .PHONY : cpp/var.cpp.s
+
+data_structure/Adjacency_Multilist.o: data_structure/Adjacency_Multilist.c.o
+.PHONY : data_structure/Adjacency_Multilist.o
+
+# target to build an object file
+data_structure/Adjacency_Multilist.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mgraph.dir/build.make CMakeFiles/mgraph.dir/data_structure/Adjacency_Multilist.c.o
+.PHONY : data_structure/Adjacency_Multilist.c.o
+
+data_structure/Adjacency_Multilist.i: data_structure/Adjacency_Multilist.c.i
+.PHONY : data_structure/Adjacency_Multilist.i
+
+# target to preprocess a source file
+data_structure/Adjacency_Multilist.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mgraph.dir/build.make CMakeFiles/mgraph.dir/data_structure/Adjacency_Multilist.c.i
+.PHONY : data_structure/Adjacency_Multilist.c.i
+
+data_structure/Adjacency_Multilist.s: data_structure/Adjacency_Multilist.c.s
+.PHONY : data_structure/Adjacency_Multilist.s
+
+# target to generate assembly for a file
+data_structure/Adjacency_Multilist.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mgraph.dir/build.make CMakeFiles/mgraph.dir/data_structure/Adjacency_Multilist.c.s
+.PHONY : data_structure/Adjacency_Multilist.c.s
+
+data_structure/BFS.o: data_structure/BFS.c.o
+.PHONY : data_structure/BFS.o
+
+# target to build an object file
+data_structure/BFS.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mgraph.dir/build.make CMakeFiles/mgraph.dir/data_structure/BFS.c.o
+.PHONY : data_structure/BFS.c.o
+
+data_structure/BFS.i: data_structure/BFS.c.i
+.PHONY : data_structure/BFS.i
+
+# target to preprocess a source file
+data_structure/BFS.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mgraph.dir/build.make CMakeFiles/mgraph.dir/data_structure/BFS.c.i
+.PHONY : data_structure/BFS.c.i
+
+data_structure/BFS.s: data_structure/BFS.c.s
+.PHONY : data_structure/BFS.s
+
+# target to generate assembly for a file
+data_structure/BFS.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mgraph.dir/build.make CMakeFiles/mgraph.dir/data_structure/BFS.c.s
+.PHONY : data_structure/BFS.c.s
+
+data_structure/OLG.o: data_structure/OLG.c.o
+.PHONY : data_structure/OLG.o
+
+# target to build an object file
+data_structure/OLG.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mgraph.dir/build.make CMakeFiles/mgraph.dir/data_structure/OLG.c.o
+.PHONY : data_structure/OLG.c.o
+
+data_structure/OLG.i: data_structure/OLG.c.i
+.PHONY : data_structure/OLG.i
+
+# target to preprocess a source file
+data_structure/OLG.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mgraph.dir/build.make CMakeFiles/mgraph.dir/data_structure/OLG.c.i
+.PHONY : data_structure/OLG.c.i
+
+data_structure/OLG.s: data_structure/OLG.c.s
+.PHONY : data_structure/OLG.s
+
+# target to generate assembly for a file
+data_structure/OLG.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mgraph.dir/build.make CMakeFiles/mgraph.dir/data_structure/OLG.c.s
+.PHONY : data_structure/OLG.c.s
+
+data_structure/adjgraph.o: data_structure/adjgraph.c.o
+.PHONY : data_structure/adjgraph.o
+
+# target to build an object file
+data_structure/adjgraph.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mgraph.dir/build.make CMakeFiles/mgraph.dir/data_structure/adjgraph.c.o
+.PHONY : data_structure/adjgraph.c.o
+
+data_structure/adjgraph.i: data_structure/adjgraph.c.i
+.PHONY : data_structure/adjgraph.i
+
+# target to preprocess a source file
+data_structure/adjgraph.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mgraph.dir/build.make CMakeFiles/mgraph.dir/data_structure/adjgraph.c.i
+.PHONY : data_structure/adjgraph.c.i
+
+data_structure/adjgraph.s: data_structure/adjgraph.c.s
+.PHONY : data_structure/adjgraph.s
+
+# target to generate assembly for a file
+data_structure/adjgraph.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mgraph.dir/build.make CMakeFiles/mgraph.dir/data_structure/adjgraph.c.s
+.PHONY : data_structure/adjgraph.c.s
+
+data_structure/main.o: data_structure/main.c.o
+.PHONY : data_structure/main.o
+
+# target to build an object file
+data_structure/main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mgraph.dir/build.make CMakeFiles/mgraph.dir/data_structure/main.c.o
+.PHONY : data_structure/main.c.o
+
+data_structure/main.i: data_structure/main.c.i
+.PHONY : data_structure/main.i
+
+# target to preprocess a source file
+data_structure/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mgraph.dir/build.make CMakeFiles/mgraph.dir/data_structure/main.c.i
+.PHONY : data_structure/main.c.i
+
+data_structure/main.s: data_structure/main.c.s
+.PHONY : data_structure/main.s
+
+# target to generate assembly for a file
+data_structure/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mgraph.dir/build.make CMakeFiles/mgraph.dir/data_structure/main.c.s
+.PHONY : data_structure/main.c.s
+
+data_structure/mgraph.o: data_structure/mgraph.c.o
+.PHONY : data_structure/mgraph.o
+
+# target to build an object file
+data_structure/mgraph.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mgraph.dir/build.make CMakeFiles/mgraph.dir/data_structure/mgraph.c.o
+.PHONY : data_structure/mgraph.c.o
+
+data_structure/mgraph.i: data_structure/mgraph.c.i
+.PHONY : data_structure/mgraph.i
+
+# target to preprocess a source file
+data_structure/mgraph.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mgraph.dir/build.make CMakeFiles/mgraph.dir/data_structure/mgraph.c.i
+.PHONY : data_structure/mgraph.c.i
+
+data_structure/mgraph.s: data_structure/mgraph.c.s
+.PHONY : data_structure/mgraph.s
+
+# target to generate assembly for a file
+data_structure/mgraph.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mgraph.dir/build.make CMakeFiles/mgraph.dir/data_structure/mgraph.c.s
+.PHONY : data_structure/mgraph.c.s
 
 destructor/des.o: destructor/des.cpp.o
 .PHONY : destructor/des.o
@@ -737,6 +894,7 @@ help:
 	@echo "... inh"
 	@echo "... int"
 	@echo "... math"
+	@echo "... mgraph"
 	@echo "... mut"
 	@echo "... static_"
 	@echo "... str"
@@ -763,6 +921,24 @@ help:
 	@echo "... cpp/var.o"
 	@echo "... cpp/var.i"
 	@echo "... cpp/var.s"
+	@echo "... data_structure/Adjacency_Multilist.o"
+	@echo "... data_structure/Adjacency_Multilist.i"
+	@echo "... data_structure/Adjacency_Multilist.s"
+	@echo "... data_structure/BFS.o"
+	@echo "... data_structure/BFS.i"
+	@echo "... data_structure/BFS.s"
+	@echo "... data_structure/OLG.o"
+	@echo "... data_structure/OLG.i"
+	@echo "... data_structure/OLG.s"
+	@echo "... data_structure/adjgraph.o"
+	@echo "... data_structure/adjgraph.i"
+	@echo "... data_structure/adjgraph.s"
+	@echo "... data_structure/main.o"
+	@echo "... data_structure/main.i"
+	@echo "... data_structure/main.s"
+	@echo "... data_structure/mgraph.o"
+	@echo "... data_structure/mgraph.i"
+	@echo "... data_structure/mgraph.s"
 	@echo "... destructor/des.o"
 	@echo "... destructor/des.i"
 	@echo "... destructor/des.s"
